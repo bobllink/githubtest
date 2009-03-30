@@ -1,0 +1,15 @@
+# Lines starting with '#' are considered comments. 
+# Ignore any file nib file. Track xib instead. 
+# Ignore build products
+.DS_Store
+*.nib 
+build/Debug/*
+build/Release/*
+# build/*
+*.pbxtree
+*.pbxsymbols
+*.header
+build/*.build/*
+# *strings.pbxstrings/*
+# Ignore objects and archives. 
+*.[oa]
